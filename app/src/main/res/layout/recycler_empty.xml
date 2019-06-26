@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/recycler_empty_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="空空如也..."
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/secondary_text_size"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/recycler_empty_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dove_empty"
+        android:scaleType="centerInside"
+        android:layout_above="@id/recycler_empty_tv"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

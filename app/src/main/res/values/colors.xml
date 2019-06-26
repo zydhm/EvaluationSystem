@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5CB85C</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorForgive">#5CB85C</color>
+    <color name="lightGrey">#666</color>
+    <color name="textGrey">#BBB</color>
+
+    <!--第一字体的颜色-->
+    <color name="primary_text">#333333</color>
+    <!--第二字体的颜色-->
+    <color name="secondary_text">#777777</color>
+    <!--分割线颜色-->
+    <color name="divider_line">#e1e1e1</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#212121</color>
+
+    <color name="background_light_grey">#f9f7f7</color>
+</resources>

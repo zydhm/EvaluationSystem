@@ -1,0 +1,22 @@
+<RelativeLayout
+    android:id="@+id/rl_classItem"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:id="@+id/tv_classItem"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="这是班级"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/cb_classItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

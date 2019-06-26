@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/test_nest_scroll"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/test_fragment_swipeRefreshLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/test_fragment_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <include
+            android:id="@+id/test_empty"
+            layout="@layout/recycler_empty"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/test_load_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="正在加载更多数据..."
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/forth_text_size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/test_no_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="木有更多数据了..."
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/forth_text_size"
+            android:visibility="gone" />
+
+    </LinearLayout>
+<!--</android.support.v4.widget.NestedScrollView>-->

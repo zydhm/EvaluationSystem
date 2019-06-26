@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_childItem"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_marginTop="5dp">
+    <TextView
+        android:id="@+id/tv_childItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是二级目录"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:textSize="15dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_childItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

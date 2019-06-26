@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/more_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:id="@+id/more_user_info_iconId"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:padding="6dp"
+            android:src="@mipmap/ic_user_info" />
+
+        <TextView
+            android:id="@+id/more_user_info_textId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/more_user_info_iconId"
+            android:text="个人信息"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_alignLeft="@+id/more_user_info_textId"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_line" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_arrow"
+            android:gravity="center"
+            android:padding="4dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_promotion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:id="@+id/more_promotion_iconId"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:padding="6dp"
+            android:src="@mipmap/ic_promotion" />
+
+        <TextView
+            android:id="@+id/more_promotion_textId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/more_promotion_iconId"
+            android:text="推介"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_alignLeft="@+id/more_promotion_textId"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_line" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_arrow"
+            android:gravity="center"
+            android:padding="4dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_contact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:id="@+id/more_contact_iconId"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:padding="6dp"
+            android:src="@mipmap/ic_contact" />
+
+        <TextView
+            android:id="@+id/more_contact_textId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/more_contact_iconId"
+            android:text="联系我们"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_alignLeft="@+id/more_contact_textId"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_line" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_arrow"
+            android:gravity="center"
+            android:padding="4dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_selfTest"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:id="@+id/more_selfTest_iconId"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:padding="6dp"
+            android:src="@mipmap/ic_selfevaluation" />
+
+        <TextView
+            android:id="@+id/more_selfTest_textId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/more_selfTest_iconId"
+            android:text="自测"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_alignLeft="@+id/more_selfTest_textId"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_line" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_arrow"
+            android:gravity="center"
+            android:padding="4dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:id="@+id/more_logout_iconId"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:padding="6dp"
+            android:src="@mipmap/ic_logout" />
+
+        <TextView
+            android:id="@+id/more_logout_textId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/more_logout_iconId"
+            android:text="注销"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_alignLeft="@+id/more_logout_textId"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_line" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_arrow"
+            android:gravity="center"
+            android:padding="4dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

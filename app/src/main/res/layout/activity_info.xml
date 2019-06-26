@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f3f3"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/divider_line" />
+
+    <RelativeLayout
+        android:id="@+id/relative0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/info_userName_text1Id"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="用户名"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/info_userName_text2Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/info_userName_text1Id"
+            android:background="@null"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/divider_line" />
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/info_loginName_text1Id"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="学号"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/info_loginName_text2Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/info_loginName_text1Id"
+            android:background="@null"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/divider_line" />
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/info_tel_textId"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="电话"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/info_tel_editId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/info_tel_textId"
+            android:background="@null"
+            android:hint="电话"
+            android:textColorHint="#cccccc"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/divider_line" />
+
+    <RelativeLayout
+        android:id="@+id/relative3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/info_email_textId"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="邮箱"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/info_email_editId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/info_email_textId"
+            android:background="@null"
+            android:hint="邮箱"
+            android:textColorHint="#cccccc"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/divider_line" />
+    <RelativeLayout
+        android:id="@+id/relative4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/info_class_textId"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="班级"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/info_class_textId2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/info_class_textId"
+            android:background="@null"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/divider_line" />
+
+</LinearLayout>

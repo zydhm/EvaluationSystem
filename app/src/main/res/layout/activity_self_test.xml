@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_selfTest_questionType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="题目类型"/>
+            <TextView
+                android:id="@+id/tv_selfTest_testQuestionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="题目编号"/>
+            <TextView
+                android:id="@+id/tv_selfTest_questionContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:text="题目内容"/>
+
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_selfTest_questionPic"
+                    android:layout_centerInParent="true"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_selfTest_answerA"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/cb_selfTest_answerA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    android:buttonTint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tv_selfTest_answerA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/cb_selfTest_answerA"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="答案A" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_selfTest_answerB"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/cb_selfTest_answerB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    android:buttonTint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tv_selfTest_answerB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/cb_selfTest_answerB"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="答案B" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_selfTest_answerC"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/cb_selfTest_answerC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    android:buttonTint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tv_selfTest_answerC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/cb_selfTest_answerC"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="答案C" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_selfTest_answerD"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/cb_selfTest_answerD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    android:buttonTint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tv_selfTest_answerD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/cb_selfTest_answerD"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="答案D" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/ll_selfTest_tip"
+        android:background="@color/divider_line">
+    </View>
+
+
+    <LinearLayout
+        android:id="@+id/ll_selfTest_tip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_selfTest_next"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="下一题" />
+
+    </LinearLayout>
+
+</RelativeLayout>

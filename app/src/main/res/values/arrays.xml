@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questionType">
+        <item>单选</item>
+        <item>多选</item>
+        <item>判断</item>
+    </string-array>
+
+    <string-array name="questionLevel">
+        <item>简单</item>
+        <item>中等</item>
+        <item>困难</item>
+    </string-array>
+
+    <string-array name="knowledge">
+        <item>进程</item>
+        <item>线程</item>
+    </string-array>
+
+    <string-array name="course">
+        <item>操作系统</item>
+    </string-array>
+
+</resources>

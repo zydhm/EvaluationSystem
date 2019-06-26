@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#9c5cb6fa"
+        android:text="Button1"
+        android:textAllCaps="false"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#9c5cb6fa"
+        android:text="Button2"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerVertical="true"
+        android:background="#9c5cb6fa"
+        android:text="Button3"
+        android:textAllCaps="false"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="#9c5cb6fa"
+        android:text="Button4"
+        android:textAllCaps="false"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#9c5cb6fa"
+        android:text="Button5"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#9c5cb6fa"
+        android:text="Button6"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
